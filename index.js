@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-exports.sync = function(fn) {
-  return fn.then(res => () => res).catch(err => () => {
+exports.sync = function(promise) {
+  return promise.then(res => () => res).catch(err => () => {
     throw err;
   });
-}
+};

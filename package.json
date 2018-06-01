@@ -1,8 +1,14 @@
 {
-    "name": "jest-toolkit",
-    "license": "MIT",
-    "version": "0.1.1",
-    "scripts": {
-        "release": "np"
-    }
+  "name": "jest-toolkit",
+  "license": "MIT",
+  "version": "0.1.1",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest ./tests",
+    "release": "np"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.6",
+    "jest": "^23.1.0",
+    "np": "^3.0.1"
+  }
 }
