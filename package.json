@@ -1,0 +1,8 @@
+{
+    "name": "jest-toolkit",
+    "license": "MIT",
+    "version": "0.1.0",
+    "scripts": {
+        "release": "np"
+    }
+}
