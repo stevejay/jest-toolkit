@@ -8,7 +8,6 @@
   },
   "devDependencies": {
     "cross-env": "^5.1.6",
-    "jest": "^23.1.0",
-    "np": "^3.0.1"
+    "jest": "^23.1.0"
   }
 }
